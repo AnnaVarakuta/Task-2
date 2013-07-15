@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LessManager">
+    <option name="lessProfiles">
+      <map>
+        <entry key="less">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="Z:\home\Tasck2" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="style.css" />
+              <option name="includePattern" value="style.less" />
+              <option name="lessDirPath" value="Z:\home\Tasck2" />
+              <option name="name" value="test2" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="test2">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="Z:\home\Tasck2" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="style.css" />
+              <option name="includePattern" value="style.less" />
+              <option name="lessDirPath" value="Z:\home\Tasck2" />
+              <option name="name" value="test2" />
+            </LessProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+

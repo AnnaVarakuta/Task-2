@@ -1,0 +1,39 @@
+@white:#fff;
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+body {
+  padding: 0 0 0;
+  background: url("i/fon3.png");
+
+}
+.line{
+  margin-left: 730px;
+  width: 70px;
+  height: 100%;
+  //background-repeat: repeat-y;
+  position: absolute;
+  background: url("i/line2.png")repeat-y;
+}
+
+.gradient{
+  position: absolute;
+  height: 445px;
+  width: 745px;
+  top: 50%;
+  left: 30%;
+  margin-top: -222px;
+  margin-left: -250px;
+  opacity: 0.3;
+  background: @white; /* Старые браузеры */
+  background: -moz-radial-gradient(@white, transparent); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0, center center, 100%,
+  color-stop(0%,@white), color-stop(100%,transparent)); /* Chrome, Safari4+ */
+  background: -webkit-radial-gradient(@white, transparent); /* Chrome 10+, Safari 5.1+ */
+  background: -o-radial-gradient(@white, transparent); /* Opera 12 */
+  background: -ms-radial-gradient(@white, transparent); /* IE10 */
+  background: radial-gradient(@white, transparent); /* CSS3 */
+}
